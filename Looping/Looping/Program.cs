@@ -12,7 +12,7 @@ namespace Looping
 			Console.WriteLine("Please enter a number: ");
 
 			while (!double.TryParse(Console.ReadLine(), out number)) { //tests to make sure the number entered by a user is a double
-				Console.WriteLine("Please enter a valid number.");
+				Console.WriteLine("Please enter a valid number."); //this will display if the user enters anything but a double
 			}
 
 			for(double counter = 2; counter < 21; counter++){ //a loop that starts at 2 and will end at 20
